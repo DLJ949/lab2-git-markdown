@@ -13,7 +13,7 @@ tasks are comparable.  Here are the tasks:
    
    Here is an example:
    ```
-   cd Desktop/school/info201/labs
+   cd Desktop/"Info 201"
    ```
 
 1. **fork** this repository on Github under your user name (see
@@ -23,6 +23,10 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
+   
+   ```
+   git clone https://github.com/DLJ949/lab2-git-markdown.git
+   ```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -37,16 +41,24 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
-   
    Explain, in plain text, what does it mean.
+   ```
+   "git status" displays what files have been modified within the current working directory and have not been saved to git.
+   ```
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  
+  ```
+  git add books.md
+  ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   
+   I see now that the books.md file is now considered a new file to be sent to the git repository under "git status"
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
